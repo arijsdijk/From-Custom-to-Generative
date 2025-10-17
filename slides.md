@@ -3,36 +3,19 @@
 ## Filling Model-Driven gaps with pages
 
 
-
-
-
----
-customTheme: .demo/slides/themes/rsdk-dark.css
-layout: section
-transition: slideLeft
----
+***
 
 # We need to build a solution ...
 
 ## What do we need? A Model-driven app or a Canvas app 🤔
 
-
----
-customTheme: .demo/slides/themes/rsdk-dark.css
-layout: section
-transition: slideLeft
----
+***
 
 # The differences
 
 ## Let's take look at the differences 👀
 
-
----
-customTheme: .demo/slides/themes/rsdk-light.css
-layout: two-columns
-transition: slideLeft
----
+***
 
 # Model-driven apps
 
@@ -50,8 +33,6 @@ transition: slideLeft
 <br />
 
 
-::right::
-
 # Canvas apps
 
 
@@ -68,11 +49,7 @@ transition: slideLeft
 <br />
 
 
-
----
-customTheme: .demo/slides/themes/rsdk-light.css
-layout: section
----
+***
 
 # Wait a minute ...
 

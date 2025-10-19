@@ -22,21 +22,17 @@ Let's take look at the differences 👀
 | ✅ Responsive design | ✅ Requires more design effort |
 
 
-***
+
 
 ### Wait a minute ...
 
 Do we really have to choose? 🤔
 
-
-***
-
-
-### We don’t ...
+We don’t ...
 
 There is another option 😌
 
-***
+
 
 ### Custom pages
 
@@ -52,7 +48,6 @@ What are custom pages?
 
 ➡️ Adds flexibility
 
-***
 
 
 ### Create a custom page
@@ -76,8 +71,9 @@ Just a simple Canvas page
 ![Create a custom page](./assets/create-custompage-result.gif)
 
 
-### Just a page?
+## Just a page?
 
+### 
 It's more then just a page ...
 
 
@@ -92,9 +88,6 @@ There are multiple ways to display and use custom pages
 ➡️ Side dialog
 
 ➡️ Inline side dialog
-
-
-
 
 
 ### Full page

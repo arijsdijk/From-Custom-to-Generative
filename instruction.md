@@ -3,12 +3,15 @@
 How to 
 
 
+
+
+
 ## 1. Create a custom page 
 
-Before we can add a custom page as an integrated part of a model-driven app we need to create a custom page first. There are two ways to do this; 
+Before we can add a custom page as an integrated part of a model-driven app we need to create a custom page first. There are two ways to create custom pages; 
 
 * From a solution
-* From the model-driven app
+* From a model-driven app
 
 
 

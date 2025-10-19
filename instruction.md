@@ -46,13 +46,24 @@ Add the [JavaScript]() from this repository to your solution.
 [example]
 
 
-## 3. Dialogs
+## 3. Create a custom command
 
-You can add your created custom pages as a dialog to your model-driven app. There are mulitple way's to show your custom page in a model driven app; 
 
-* Full page
-* Center dialog (like a popup)
-* Side dialog
+## 4. Select the webresource (JavaScript)
+
+
+## 5. Choose the function you want to trigger
+
+### 5.1 Dialog
+
+### 5.2 Inside pane dialog
+
+
+## 6. Add parameters 
+
+
+
+
 
 
 ### 3.1 Full page

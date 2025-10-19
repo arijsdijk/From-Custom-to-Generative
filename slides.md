@@ -218,7 +218,7 @@ Now we need a little bit of JavaScript to trigger the custom page and define its
 
 Let’s dive into the JavaScript
 
-[link to file]
+See the JavaScript file [here](openCustomPage.js)
 
 
 

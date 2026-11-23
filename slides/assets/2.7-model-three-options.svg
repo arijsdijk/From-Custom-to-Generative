@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1029" height="383.5" viewBox="73 231 1029 383.5" role="img" aria-labelledby="title desc">
+  <title id="title">Three options for extending a model-driven app</title>
+  <desc id="desc">Custom page with Power Fx, generative page with React, TypeScript and natural language, and PCF control with a code component.</desc>
+  <defs>
+    <g id="window-dots" fill="#f7f5eb">
+      <circle cx="0" cy="0" r="3.5"/>
+      <circle cx="13" cy="0" r="3.5"/>
+      <circle cx="26" cy="0" r="3.5"/>
+    </g>
+    <g id="code-symbol" fill="none" stroke="#06212c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m-9-8-8 8 8 8M9-8l8 8-8 8M4-13l-8 26"/>
+    </g>
+    <g id="small-card">
+      <rect width="47" height="53" rx="4" fill="none" stroke="#b8c0bd" stroke-width="2"/>
+      <circle cx="23.5" cy="15" r="6" fill="#ff4139"/>
+      <path d="M12 30h23M12 39h18" fill="none" stroke="#768282" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <!-- Custom page -->
+  <g>
+    <rect x="73" y="231" width="234" height="186" rx="13" fill="#06212c"/>
+    <use href="#window-dots" x="92" y="245"/>
+    <rect x="79" y="255" width="222" height="156" fill="#f3f0e5"/>
+    <rect x="90" y="268" width="102" height="44" rx="5" fill="none" stroke="#b8c0bd" stroke-width="2"/>
+    <path d="M104 282h69m-69 12h42" fill="none" stroke="#263b40" stroke-width="5" stroke-linecap="round"/>
+    <rect x="201" y="271" width="89" height="128" rx="3" fill="none" stroke="#b8c0bd" stroke-width="2" stroke-dasharray="6 4"/>
+    <rect x="90" y="348" width="64" height="53" rx="5" fill="none" stroke="#b8c0bd" stroke-width="2"/>
+    <circle cx="112" cy="365" r="7" fill="#ff4139"/>
+    <path d="M104 381h36m-36 10h24" fill="none" stroke="#526263" stroke-width="4" stroke-linecap="round"/>
+    <rect x="164" y="358" width="59" height="43" rx="5" fill="none" stroke="#b8c0bd" stroke-width="2"/>
+    <path d="M177 372h33m-33 11h22" fill="none" stroke="#526263" stroke-width="4" stroke-linecap="round"/>
+    <rect x="177" y="309" width="73" height="48" rx="5" fill="none" stroke="#ff4139" stroke-width="2" stroke-dasharray="6 4"/>
+    <rect x="162" y="303" width="73" height="48" rx="5" fill="#f3f0e5" stroke="#ff4139" stroke-width="2.5"/>
+    <circle cx="209" cy="319" r="5" fill="#ff4139"/>
+    <path d="m177 342 13-21 9 10 5-6 11 17z" fill="#ff4139"/>
+    <path d="m225 334 6 24 6-7 8 10 5-5-9-9 10-3z" fill="#06212c" stroke="#f3f0e5" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="79" y="420" width="226" height="54" rx="14" fill="#06212c"/>
+    <rect x="85" y="426" width="214" height="42" rx="9" fill="#f3f0e5"/>
+    <text x="98" y="457" fill="#06212c" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="29">fx</text>
+    <path d="M138 434v27" stroke="#c3c6bf" stroke-width="2"/>
+    <path d="M155 441h124m-124 14h76" fill="none" stroke="#263b40" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- Generative page -->
+  <g>
+    <path d="M418 272h87c15 0 25 10 25 23v32c0 12-9 22-21 23v16l-22-15h-69c-13 0-23-10-23-23v-33c0-13 10-23 23-23z" fill="#06212c"/>
+    <path d="M418 277h87c12 0 20 8 20 18v32c0 10-8 18-21 18v12l-15-11h-71c-10 0-18-8-18-18v-33c0-10 8-18 18-18z" fill="#f3f0e5"/>
+    <path d="M421 296h82m-82 15h82m-82 15h48" fill="none" stroke="#263b40" stroke-width="4" stroke-linecap="round"/>
+    <rect x="535" y="236" width="190" height="208" rx="13" fill="#06212c"/>
+    <use href="#window-dots" x="553" y="250"/>
+    <rect x="541" y="260" width="178" height="178" fill="#f3f0e5"/>
+    <path d="M556 283h31m-31 36h23m-23 21h63" fill="none" stroke="#263b40" stroke-width="5" stroke-linecap="round"/>
+    <path d="M556 294h64m-64 10h50m-50 47h148m-148 9h86" fill="none" stroke="#a1aaa6" stroke-width="3.5" stroke-linecap="round"/>
+    <rect x="638" y="273" width="67" height="54" rx="4" fill="none" stroke="#b8c0bd" stroke-width="2"/>
+    <circle cx="682" cy="289" r="5" fill="#263b40"/>
+    <path d="m645 318 17-24 13 14 7-10 16 20z" fill="#263b40"/>
+    <use href="#small-card" x="553" y="372"/>
+    <use href="#small-card" x="606" y="372"/>
+    <use href="#small-card" x="659" y="372"/>
+    <rect x="696" y="402" width="59" height="59" rx="13" fill="#06212c"/>
+    <rect x="701" y="407" width="49" height="49" rx="8" fill="#f3f0e5"/>
+    <use href="#code-symbol" x="725.5" y="431.5"/>
+  </g>
+  <!-- PCF control -->
+  <g>
+    <rect x="846" y="235" width="215" height="220" rx="13" fill="#06212c"/>
+    <use href="#window-dots" x="864" y="249"/>
+    <rect x="852" y="259" width="203" height="190" fill="#f3f0e5"/>
+    <g fill="none" stroke-linecap="round">
+      <path d="M868 277h50m-50 39h31m-31 84h31" stroke="#263b40" stroke-width="4.5"/>
+      <rect x="866" y="284" width="175" height="20" rx="4" stroke="#b8c0bd" stroke-width="2"/>
+      <rect x="866" y="323" width="175" height="20" rx="4" stroke="#b8c0bd" stroke-width="2"/>
+      <rect x="866" y="413" width="155" height="20" rx="4" stroke="#b8c0bd" stroke-width="2"/>
+      <path d="m1024 292 4 4 4-4m-8 39 4 4 4-4m-28 90 4 4 4-4" stroke="#526263" stroke-width="2"/>
+    </g>
+    <rect x="866" y="350" width="175" height="46" rx="5" fill="none" stroke="#ff4139" stroke-width="2.5"/>
+    <circle cx="907" cy="365" r="5" fill="#ff4139"/>
+    <path d="m879 386 13-20 8 10 4-5 9 15z" fill="#ff4139"/>
+    <path d="M929 365h64m-64 13h44" fill="none" stroke="#263b40" stroke-width="4" stroke-linecap="round"/>
+    <rect x="1030" y="402" width="72" height="63" rx="13" fill="#06212c"/>
+    <rect x="1035" y="407" width="62" height="53" rx="8" fill="#f3f0e5"/>
+    <use href="#code-symbol" x="1066" y="433.5"/>
+  </g>
+  <g fill="#06212c" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="199" y="531" font-size="29">Custom page</text>
+    <text x="199" y="571" font-size="23">Power Fx</text>
+    <text x="578" y="531" font-size="29">Generative page</text>
+    <text x="578" y="571" font-size="23">React / TypeScript</text>
+    <text x="578" y="610" font-size="20">Natural language</text>
+    <text x="965" y="531" font-size="29">PCF control</text>
+    <text x="965" y="571" font-size="23">Code component</text>
+  </g>
+</svg>

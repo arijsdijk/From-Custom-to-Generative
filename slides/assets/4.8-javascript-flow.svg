@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1301" height="296.5" viewBox="33 285.5 1301 296.5" role="img" aria-labelledby="title desc">
+  <title id="title">JavaScript flow to a custom page</title>
+  <desc id="desc">A model-driven app opens a custom page through a control and the JavaScript Xrm API.</desc>
+  <defs>
+    <g id="dots" fill="#f7f5eb">
+      <circle cx="0" cy="0" r="4"/><circle cx="15" cy="0" r="4"/><circle cx="30" cy="0" r="4"/>
+    </g>
+    <g id="navigation" fill="#f7f5eb">
+      <path d="M0 10 8 3l8 7v9h-5v-6H5v6H0z"/>
+      <path d="M1 34h14v16H1zm3 3v2h8v-2zm0 4v2h8v-2z" fill-rule="evenodd"/>
+      <circle cx="8" cy="67" r="4"/><path d="M0 79c0-6 16-6 16 0z"/>
+      <path d="M0 100h3v7H0zm5-5h3v12H5zm5-5h3v17h-3zm5-3h3v20h-3z"/>
+      <path d="m8 121 2 2 3-1 1 3 3 1-1 3 1 3-3 1-1 3-3-1-2 2-2-2-3 1-1-3-3-1 1-3-1-3 3-1 1-3 3 1zm0 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" fill-rule="evenodd"/>
+    </g>
+    <g id="table-row">
+      <path d="M0 0h210" stroke="#d4d1c7"/>
+      <circle cx="15" cy="13" r="6" fill="currentColor"/>
+      <path d="M34 13h31m26 0h39m25 0h31" fill="none" stroke="#898f8e" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="small-row">
+      <path d="M0 0h140" stroke="#d4d1c7"/>
+      <circle cx="14" cy="13" r="6" fill="currentColor"/>
+      <path d="M54 13h23m24 0h23" fill="none" stroke="#898f8e" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#06212c" text-anchor="middle">
+    <text x="180" y="307" font-size="29">Model-driven app</text>
+    <text x="537" y="307" font-size="29">Control</text>
+    <text x="872" y="307" font-size="29">JavaScript</text>
+    <text x="872" y="340" font-size="23">Xrm API</text>
+    <text x="1195" y="307" font-size="29">Custom page</text>
+  </g>
+  <g fill="none" stroke="#ff3733" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M339 434h42m-11-10 11 10-11 10"/>
+    <path d="M705 434h43m-11-10 11 10-11 10"/>
+    <path d="M996 434h49m-11-10 11 10-11 10"/>
+  </g>
+  <!-- Model-driven app -->
+  <g>
+    <rect x="33" y="332" width="294" height="246" rx="14" fill="#06212c"/>
+    <use href="#dots" x="49" y="349"/>
+    <use href="#navigation" x="50" y="372"/>
+    <path d="M79 359h237v210H79z" fill="#f3f0e5"/>
+    <path d="M99 380h52" stroke="#ff3733" stroke-width="12" stroke-linecap="round"/>
+    <path d="M97 402h103" stroke="#747e7d" stroke-width="7" stroke-linecap="round"/>
+    <path d="M229 400h67" stroke="#d2d1c8" stroke-width="11" stroke-linecap="round"/>
+    <rect x="91" y="420" width="213" height="141" rx="3" fill="none" stroke="#c6c5bd" stroke-width="2"/>
+    <path d="M168 420v141m66-141v141" stroke="#d4d1c7"/>
+    <use href="#table-row" x="92" y="420" color="#ff4139"/>
+    <use href="#table-row" x="92" y="446" color="#8c9291"/>
+    <use href="#table-row" x="92" y="472" color="#8c9291"/>
+    <use href="#table-row" x="92" y="498" color="#ff4139"/>
+    <use href="#table-row" x="92" y="524" color="#8c9291"/>
+  </g>
+  <!-- Control -->
+  <g>
+    <rect x="393" y="340" width="164" height="166" rx="13" fill="#06212c"/>
+    <use href="#dots" x="408" y="355"/>
+    <rect x="402" y="366" width="145" height="131" fill="#f3f0e5"/>
+    <path d="M451 366v131m47-131v131" stroke="#d4d1c7"/>
+    <path d="M417 380h24m21 0h23m24 0h23" stroke="#495a5c" stroke-width="5" stroke-linecap="round"/>
+    <use href="#small-row" x="406" y="390" color="#ff4139"/>
+    <use href="#small-row" x="406" y="416" color="#8c9291"/>
+    <use href="#small-row" x="406" y="442" color="#ff4139"/>
+    <use href="#small-row" x="406" y="468" color="#8c9291"/>
+    <rect x="558" y="340" width="135" height="166" rx="13" fill="#06212c"/>
+    <use href="#dots" x="574" y="355"/>
+    <rect x="568" y="366" width="115" height="131" fill="#f3f0e5"/>
+    <g fill="none" stroke-linecap="round">
+      <path d="M581 380h33m-33 34h33m-33 34h33" stroke="#06212c" stroke-width="5"/>
+      <rect x="580" y="388" width="91" height="16" rx="2" stroke="#bdbfba" stroke-width="2"/>
+      <rect x="580" y="422" width="91" height="16" rx="2" stroke="#bdbfba" stroke-width="2"/>
+      <rect x="580" y="458" width="91" height="20" rx="2" stroke="#bdbfba" stroke-width="2"/>
+      <path d="m661 394 3 3 3-3m-6 34 3 3 3-3" stroke="#06212c" stroke-width="1.5"/>
+    </g>
+    <rect x="416" y="512" width="251" height="62" rx="13" fill="#06212c"/>
+    <rect x="424" y="519" width="234" height="48" rx="6" fill="#f3f0e5"/>
+    <g fill="none" stroke="#06212c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M444 543h18m-9-9v18"/>
+      <path d="m500 550 14-16 4 4-14 16-5 1z"/>
+      <path d="M556 537h18m-15-3h12m-12 5 1 14h10l1-14"/>
+      <path d="M596 531v25" stroke-width="3"/>
+    </g>
+    <path d="m619 531 20 12-20 12z" fill="#06212c"/>
+    <path d="M480 530v26m56-26v26" stroke="#d4d1c7" stroke-width="2"/>
+  </g>
+  <!-- JavaScript -->
+  <g>
+    <rect x="760" y="358" width="224" height="194" rx="14" fill="#06212c"/>
+    <use href="#dots" x="780" y="375"/>
+    <rect x="769" y="387" width="205" height="156" fill="#f3f0e5"/>
+    <path d="m800 416-14 11 14 12m32-23 14 11-14 12m-9-31-13 39" fill="none" stroke="#ff3733" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="none" stroke-linecap="round" stroke-width="7">
+      <path d="M866 420h87m-87 16h65M789 469h8m12 0h123m-84 16h65m-124 17h64m13 0h35m-67 16h48" stroke="#8b9190"/>
+      <path d="M789 486h46m-46 32h32" stroke="#ff3733"/>
+    </g>
+    <rect x="932" y="493" width="64" height="64" rx="13" fill="#06212c"/>
+    <rect x="938" y="499" width="52" height="52" rx="8" fill="#f3f0e5"/>
+    <g fill="none" stroke="#06212c" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M960 526.5a7.5 7.5 0 0 0 11.31.81l4.5-4.5a7.5 7.5 0 0 0-10.61-10.61l-2.58 2.57"/>
+      <path d="M966 523.5a7.5 7.5 0 0 0-11.31-.81l-4.5 4.5a7.5 7.5 0 0 0 10.61 10.61l2.57-2.57"/>
+    </g>
+  </g>
+  <!-- Custom page -->
+  <g>
+    <rect x="1057" y="332" width="275" height="246" rx="14" fill="#06212c"/>
+    <use href="#dots" x="1074" y="349"/>
+    <use href="#navigation" x="1076" y="372"/>
+    <rect x="1107" y="359" width="215" height="210" fill="#f3f0e5"/>
+    <rect x="1119" y="381" width="193" height="177" rx="5" fill="none" stroke="#c6c5bd" stroke-width="2"/>
+    <path d="M1133 381h49" stroke="#ff3733" stroke-width="8" stroke-linecap="round"/>
+    <rect x="1132" y="395" width="56" height="48" rx="5" fill="#cbcfc8"/>
+    <circle cx="1171" cy="411" r="6" fill="#ff3733"/>
+    <path d="m1136 440 17-24 13 15 6-7 12 16z" fill="#06212c"/>
+    <g fill="none" stroke-linecap="round" stroke-width="6">
+      <path d="M1204 404h60" stroke="#263b40"/>
+      <path d="M1204 417h81m-81 13h39" stroke="#8b9190"/>
+      <path d="M1134 461h41m-41 30h41" stroke="#263b40"/>
+    </g>
+    <g fill="#f9f8f2" stroke="#bdbfba" stroke-width="2">
+      <rect x="1132" y="452" width="169" height="18" rx="2"/>
+      <rect x="1132" y="482" width="169" height="18" rx="2"/>
+      <rect x="1132" y="500" width="169" height="18" rx="2"/>
+    </g>
+    <path d="M1135 461h40m-40 30h40" fill="none" stroke="#263b40" stroke-width="5" stroke-linecap="round"/>
+    <path d="m1290 458 3 3 3-3" fill="none" stroke="#06212c" stroke-width="1.5"/>
+    <rect x="1132" y="530" width="91" height="18" rx="4" fill="#ff3733"/>
+    <rect x="1273" y="521" width="61" height="61" rx="12" fill="#06212c"/>
+    <rect x="1279" y="527" width="49" height="49" rx="7" fill="#f3f0e5"/>
+    <text x="1303" y="563" text-anchor="middle" fill="#06212c" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="35">fx</text>
+  </g>
+</svg>
